@@ -11,7 +11,8 @@ module.exports = {
     parser: 'babel-eslint'
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    'no-console': process.env.NODE_ENV === 'production' ? 'off' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'off' : 'off',
+    'semi': ['off', 'off'] // 强制有分号，没有就报错
   }
 }
