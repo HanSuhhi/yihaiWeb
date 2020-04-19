@@ -750,7 +750,9 @@ export default {
         padding-right: 20px;
         overflow: auto;
         overflow-x: hidden;
+        display: flex;
         p{
+          display: none;
           line-height: 40px;
           text-align: left;
           font-size: 16px;
